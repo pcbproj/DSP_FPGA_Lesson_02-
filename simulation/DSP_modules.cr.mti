@@ -1,0 +1,85 @@
+D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/tb_DSP_modules.v {2 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/tb_DSP_modules.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_DSP_modules
+** Warning: D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/tb_DSP_modules.v(8): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/tb_DSP_modules.v(9): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	tb_DSP_modules
+
+} {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/add_sub_example.v {1 {vlog -work work -stats=none {D:\Work\PCBteach\02_MY_projects\DSP_in_FPGA\02_LessonVerilog\DSP_modules\modules\add_sub_example.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module add_sub_example
+
+Top level modules:
+	add_sub_example
+
+} {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/mult_booth_wooly.v {1 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/mult_booth_wooly.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult_booth_wooly
+
+Top level modules:
+	mult_booth_wooly
+
+} {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/divider.v {1 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/divider.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module divider
+
+Top level modules:
+	divider
+
+} {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/mult_q15.v {1 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/mult_q15.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult_q15
+
+Top level modules:
+	mult_q15
+
+} {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/DSP_mac_div.v {1 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/DSP_mac_div.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DSP_mac_div
+
+Top level modules:
+	DSP_mac_div
+
+} {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub.v {2 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fixed_point_add_sub
+** Warning: D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub.v(4): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub.v(5): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub.v(8): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub.v(9): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub.v(10): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	fixed_point_add_sub
+
+} {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/mult_example.v {1 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/mult_example.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult_example
+
+Top level modules:
+	mult_example
+
+} {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/div_example.v {1 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/div_example.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module div_example
+
+Top level modules:
+	div_example
+
+} {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/binary_representation.v {1 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/binary_representation.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module binary_representation
+
+Top level modules:
+	binary_representation
+
+} {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/div_q15q16.v {1 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/div_q15q16.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module div_q15q16
+
+Top level modules:
+	div_q15q16
+
+} {} {}}

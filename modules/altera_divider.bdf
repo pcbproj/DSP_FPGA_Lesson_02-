@@ -1,0 +1,251 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2021  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 400 272 576 288)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "dividend[15..0]" (rect 5 0 79 12)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 408 304 576 320)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "clk" (rect 5 0 19 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 408 336 576 352)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "reset" (rect 5 0 29 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 408 288 576 304)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "divisor[15..0]" (rect 5 0 66 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 808 272 984 288)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "quotient[15..0]" (rect 90 0 160 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 808 288 984 304)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "remainder[15..0]" (rect 90 0 167 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 584 312 616 328)
+	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
+	(text "inst" (rect 3 5 20 17)(font "Arial" )(invisible))
+	(port
+		(pt 16 16)
+		(output)
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(line (pt 16 16)(pt 16 8))
+	)
+	(drawing
+		(line (pt 8 8)(pt 24 8))
+	)
+)
+(symbol
+	(rect 624 256 768 368)
+	(text "LPM_DIVIDE" (rect 38 0 127 16)(font "Arial" (font_size 10)))
+	(text "inst1" (rect 3 100 26 112)(font "Arial" ))
+	(port
+		(pt 0 24)
+		(input)
+		(text "numer[LPM_WIDTHN-1..0]" (rect 21 16 166 30)(font "Arial" (font_size 8)))
+		(text "numer[]" (rect 21 16 63 30)(font "Arial" (font_size 8)))
+		(line (pt 0 24)(pt 16 24)(line_width 3))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "denom[LPM_WIDTHD-1..0]" (rect 20 32 167 46)(font "Arial" (font_size 8)))
+		(text "denom[]" (rect 20 32 64 46)(font "Arial" (font_size 8)))
+		(line (pt 0 40)(pt 16 40)(line_width 3))
+	)
+	(port
+		(pt 0 56)
+		(input)
+		(text "clock" (rect 20 49 49 63)(font "Arial" (font_size 8)))
+		(text "clock" (rect 20 49 49 63)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 16 56))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "clken" (rect 20 63 49 77)(font "Arial" (font_size 8)))
+		(text "clken" (rect 20 63 49 77)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 16 72))
+	)
+	(port
+		(pt 0 88)
+		(input)
+		(text "aclr" (rect 20 79 41 93)(font "Arial" (font_size 8)))
+		(text "aclr" (rect 20 79 41 93)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 16 88))
+	)
+	(port
+		(pt 144 24)
+		(output)
+		(text "quotient[LPM_WIDTHN-1..0]" (rect 83 16 237 30)(font "Arial" (font_size 8)))
+		(text "quotient[]" (rect 80 16 131 30)(font "Arial" (font_size 8)))
+		(line (pt 128 24)(pt 144 24)(line_width 3))
+	)
+	(port
+		(pt 144 40)
+		(output)
+		(text "remain[LPM_WIDTHD-1..0]" (rect 88 32 235 46)(font "Arial" (font_size 8)))
+		(text "remain[]" (rect 86 32 130 46)(font "Arial" (font_size 8)))
+		(line (pt 128 40)(pt 144 40)(line_width 3))
+	)
+	(parameter
+		"LPM_DREPRESENTATION"
+		"\"UNSIGNED\""
+		""
+	)
+	(parameter
+		"LPM_NREPRESENTATION"
+		"\"UNSIGNED\""
+		""
+	)
+	(parameter
+		"LPM_PIPELINE"
+		"0"
+		""
+	)
+	(parameter
+		"LPM_WIDTHD"
+		"16"
+		""
+	)
+	(parameter
+		"LPM_WIDTHN"
+		"16"
+		""
+	)
+	(drawing
+		(line (pt 16 16)(pt 128 16))
+		(line (pt 16 96)(pt 128 96))
+		(line (pt 16 96)(pt 16 16))
+		(line (pt 128 96)(pt 128 16))
+	)
+	(annotation_block (parameter)(rect 592 136 830 250))
+)
+(connector
+	(pt 624 328)
+	(pt 600 328)
+)
+(connector
+	(pt 624 280)
+	(pt 576 280)
+	(bus)
+)
+(connector
+	(pt 624 296)
+	(pt 576 296)
+	(bus)
+)
+(connector
+	(pt 576 312)
+	(pt 624 312)
+)
+(connector
+	(pt 576 344)
+	(pt 624 344)
+)
+(connector
+	(pt 768 296)
+	(pt 808 296)
+	(bus)
+)
+(connector
+	(pt 768 280)
+	(pt 808 280)
+	(bus)
+)
