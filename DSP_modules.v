@@ -11,14 +11,14 @@ module DSP_modules
 	
 );	
 	
+/*
 // представление двоичных чисел
-
 binary_representation binary_representation_inst
 (
 	.a_unsigned(in_a) ,	// input [7:0] a_unsigned_sig
 	.a_signed(in_b)    	// input [7:0] a_signed_sig
 );
-
+*/
 
 	
 // 16-bit сложение и вычитание целочисленнное
@@ -98,9 +98,8 @@ fixed_point_add_sub fixed_point_add_sub_inst
 */
 
 
-
+/*
 // 16x16-битный умножитель со знаком (формат Q1.15)	
-/* 
 mult_q15 mult_q15_inst
 (
 	.a(in_a) ,	// input [15:0] a_sig
@@ -109,7 +108,7 @@ mult_q15 mult_q15_inst
 );
 */
 
-/*
+
 // 16-битное деление с фиксированной точкой Q1.15 Q0.16
 	div_q15q16 div_q15q16_inst(  
     .a(in_a), 
@@ -117,7 +116,7 @@ mult_q15 mult_q15_inst
     .y_s(out_a),
     .y_u(out_b)
 );
-*/
+
  
 /*
  // Умножитель с накоплением (MAC) и деление (ModelSim + Quartus RTL)

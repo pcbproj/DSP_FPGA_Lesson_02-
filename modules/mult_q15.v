@@ -20,10 +20,13 @@ module mult_q15 (
 		// reg_b <= b;
 		reg_a <= 16'shC000;		// -0.5
 		reg_b <= 16'sh2000;		// 0.25
+		//~ reg_a <= 16'sh7FFF;		
+		//~ reg_b <= 16'sh8000;		
 		
 		#5 
+		$display("mult_full HEX = 0x%h * 0x%h = 0x%h ", reg_a, reg_b, mult_full); 
 		$display("mult_full = %f * %f = %f", reg_a/32768.0, reg_b/32768.0, mult_full/32768.0); 
-        $display("y_s = (%f * %f)[30:15] = %f", reg_a/32768.0, reg_b/32768.0, y_s/32768.0); 
+        $display("y_s = mult_full[30:15] = %f", y_s/32768.0); 
 	
 	end
 	

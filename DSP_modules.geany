@@ -28,17 +28,17 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=12
+current_page=4
 FILE_NAME_0=0;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5Cmodules%5Cadd_sub_example.v;0;4
 FILE_NAME_1=0;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5Cmodules%5Caltera_divider_inst.v;0;4
 FILE_NAME_2=0;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5Cmodules%5Cbinary_representation.v;0;4
 FILE_NAME_3=0;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5Cmodules%5Cdiv_example.v;0;4
-FILE_NAME_4=0;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5Cmodules%5Cdiv_q15q16.v;0;4
+FILE_NAME_4=2071;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5Cmodules%5Cdiv_q15q16.v;0;4
 FILE_NAME_5=0;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5Cmodules%5Cdivider.v;0;4
 FILE_NAME_6=0;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5Cmodules%5CDSP_mac_div.v;0;4
 FILE_NAME_7=0;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5Cmodules%5Cfixed_point_add_sub.v;0;4
 FILE_NAME_8=0;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5Cmodules%5Cmult_booth_wooly.v;0;4
 FILE_NAME_9=0;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5Cmodules%5Cmult_example.v;0;4
-FILE_NAME_10=0;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5Cmodules%5Cmult_q15.v;0;4
-FILE_NAME_11=0;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5CDSP_modules.v;0;4
+FILE_NAME_10=464;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5Cmodules%5Cmult_q15.v;0;4
+FILE_NAME_11=3017;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5CDSP_modules.v;0;4
 FILE_NAME_12=0;Verilog;0;EUTF-8;1;1;0;D%3A%5CWork%5CPCBteach%5C02_MY_projects%5CDSP_in_FPGA%5CLessons%5C02_LessonVerilog%5CDSP_modules%5Ctb_DSP_modules.v;0;4

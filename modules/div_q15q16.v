@@ -47,9 +47,13 @@ module div_q15q16 (
 	
 		#5
 		$display("----- SIGNED ---------");
+		$display("reg_y_s = (0x%h / 0x%h) = 0x%h", reg_a_s, reg_b_s, reg_y_s); 
+		$display("y_s = 0x%h", y_s); 
 		$display("reg_y_s = (%f / %f) = %f", reg_a_s/32768.0, reg_b_s/32768.0, reg_y_s/32768.0); 
 		$display("y_s = (%f / %f) = %f", reg_a_s/32768.0, reg_b_s/32768.0, y_s/32768.0); 
 		$display("----- UNSIGNED ---------");
+		$display("reg_y_u = (0x%h / 0x%h) = 0x%h", reg_a_u, reg_b_u, reg_y_u); 
+		$display("y_u = 0x%h", y_u); 
 		$display("reg_y_u = (%f / %f) = %f", reg_a_u/65536.0, reg_b_u/65536.0, reg_y_u/65536.0); 
 		$display("y_u = (%f / %f) = %f", reg_a_u/65536.0, reg_b_u/65536.0, y_u/65536.0); 
 	
