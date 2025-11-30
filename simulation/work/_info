@@ -10,97 +10,97 @@ z2
 cModel Technology
 dC:/intelFPGA/20.1
 vadd_sub_example
-Z0 !s110 1763574160
+Z0 !s110 1764438371
 !i10b 1
-!s100 lWf;44T2QlIXR?K>Qk;oj3
+!s100 ah<6OkOGPeBlzAM46=efl2
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-Ila2aLUefYFzUMP?3^N7dg1
+I@ZJdMbj9K=ZWD]NV5VB`o2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 dD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/simulation
-w1763135106
+w1763724820
 8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/add_sub_example.v
 FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/add_sub_example.v
-!i122 189
-L0 2 51
+!i122 465
+L0 3 52
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1763574159.000000
+Z5 !s108 1764438371.000000
 !s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/add_sub_example.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/add_sub_example.v|
 !i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
+Z6 o-work work
+Z7 tCvgOpt 0
 vbinary_representation
 R0
 !i10b 1
-!s100 79]4kg7hMQJdQ6<eOl^oU0
+!s100 ZhGQP917:KRS]oO87_1f=1
 R1
-I31CYLk`731_mSFfOfbR]]0
+I_akO>0P@4SWeB:MJ2Egoc2
 R2
 R3
-w1763054787
+w1763721371
 8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/binary_representation.v
 FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/binary_representation.v
-!i122 190
-L0 1 18
+!i122 466
+L0 1 19
 R4
 r1
 !s85 0
 31
-Z7 !s108 1763574160.000000
+R5
 !s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/binary_representation.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/binary_representation.v|
 !i113 1
-R5
 R6
+R7
 vdiv_example
 R0
 !i10b 1
-!s100 5^NnSRY[O2:V4XGS>7e6X2
+!s100 0Y=c`UYNm>NOcik6FP[@33
 R1
-IEIb6FiJ4SUeGW=5CH93W_2
+IbA@3;HWSO?CD;ANTgWZW;1
 R2
 R3
-w1763116355
+w1763807286
 8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/div_example.v
 FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/div_example.v
-!i122 191
-Z8 L0 1 25
+!i122 467
+L0 1 25
 R4
 r1
 !s85 0
 31
-R7
+R5
 !s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/div_example.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/div_example.v|
 !i113 1
-R5
 R6
+R7
 vdiv_q15q16
-Z9 !s110 1763575193
+!s110 1764438467
 !i10b 1
-!s100 C710QFWLjk`Scb;zeYjPY2
+!s100 4h7>@M_eNG8NUUCoHXN1j1
 R1
-I^6k>Y1@n`hRo6RA@BDRMD0
+IEAB`i6c[4>d4`>Y=b;@iH1
 R2
 R3
-w1763575182
+w1764438460
 8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/div_q15q16.v
 FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/div_q15q16.v
-!i122 211
-L0 3 59
+!i122 481
+L0 3 72
 R4
 r1
 !s85 0
 31
-Z10 !s108 1763575193.000000
+!s108 1764438467.000000
 !s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/div_q15q16.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/div_q15q16.v|
 !i113 1
-R5
 R6
+R7
 vdivider
 R0
 !i10b 1
@@ -112,18 +112,18 @@ R3
 w1763132195
 8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/divider.v
 FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/divider.v
-!i122 193
+!i122 469
 L0 3 31
 R4
 r1
 !s85 0
 31
-R7
+R5
 !s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/divider.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/divider.v|
 !i113 1
-R5
 R6
+R7
 vDSP_mac_div
 R0
 !i10b 1
@@ -135,156 +135,202 @@ R3
 w1763135728
 8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/DSP_mac_div.v
 FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/DSP_mac_div.v
-!i122 194
+!i122 470
 L0 4 17
 R4
 r1
 !s85 0
 31
-R7
+R5
 !s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/DSP_mac_div.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/DSP_mac_div.v|
 !i113 1
-R5
 R6
+R7
 n@d@s@p_mac_div
 vDSP_modules
-R9
+Z8 !s110 1764438372
 !i10b 1
-!s100 n^RcL`VT:4_DDh5QFbZ[93
+!s100 z5nMoSe8NL=i`4OhHb9f60
 R1
-IZ:a_gXl3S::H?mh`E`egU3
+IIN87lOdD6a7Dam6N;@J]e1
 R2
 R3
-w1763575009
+w1764435083
 8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/DSP_modules.v
 FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/DSP_modules.v
-!i122 213
-L0 1 149
+!i122 475
+L0 1 177
 R4
 r1
 !s85 0
 31
-R10
+Z9 !s108 1764438372.000000
 !s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/DSP_modules.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/DSP_modules.v|
 !i113 1
-R5
 R6
+R7
 n@d@s@p_modules
 vfixed_point_add_sub
 R0
 !i10b 1
-!s100 8UU:VTf>>dK4kg`jN_0lK3
+!s100 Z?M70Tk`o0zW4d17[zlon1
 R1
-I_jQFm_ToZ;bCV;KkRafb83
+IJP`=Y10CchN4QbW1Z6iF81
 R2
 R3
-w1763131173
+w1764431150
 8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub.v
 FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub.v
-!i122 195
-L0 1 32
+!i122 471
+L0 1 37
 R4
 r1
 !s85 0
 31
-R7
+R5
 !s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub.v|
 !i113 1
-R5
 R6
-vmult_booth_wooly
-Z11 !s110 1763574161
+R7
+vfixed_point_add_sub_q1_15
+R8
 !i10b 1
-!s100 2gT@@VoX9cR:FKKV^k<NM3
+!s100 B1486MiHDjoSFZERPCMJT2
 R1
-I55ZhQ2P9D?JG:bT7kEIEn0
+I>V>KcU]<eUL6GfcXYnzf`1
 R2
 R3
-w1763131575
-8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_booth_wooly.v
-FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_booth_wooly.v
-!i122 196
-R8
+w1764431585
+8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub_q1_15.v
+FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub_q1_15.v
+!i122 478
+L0 1 36
 R4
 r1
 !s85 0
 31
+R9
+!s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub_q1_15.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub_q1_15.v|
+!i113 1
+R6
 R7
+vmult_booth_wooly
+R8
+!i10b 1
+!s100 <L@>;UChEF<Rn3J9>PY]o3
+R1
+IG>A`W1>XEW337AHbE]jQi0
+R2
+R3
+w1763727857
+8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_booth_wooly.v
+FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_booth_wooly.v
+!i122 472
+L0 1 34
+R4
+r1
+!s85 0
+31
+R5
 !s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_booth_wooly.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_booth_wooly.v|
 !i113 1
-R5
 R6
+R7
 vmult_example
-R11
+R8
 !i10b 1
 !s100 EWSoW^7aWn3m_2[P<Y1U20
 R1
 Ie6fQSM>gXOJ]d0JX?1cCI0
 R2
 R3
-w1763134930
+w1763725441
 8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_example.v
 FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_example.v
-!i122 197
+!i122 473
 L0 1 21
 R4
 r1
 !s85 0
 31
-Z12 !s108 1763574161.000000
+R9
 !s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_example.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_example.v|
 !i113 1
-R5
 R6
+R7
 vmult_q15
-R9
+R8
 !i10b 1
-!s100 7fi;AB;GV3[ZbANVoB]I_0
+!s100 :g6l<mUKjG1boC;j@oVmh2
 R1
-IfZM_F^fnUjN5Q:<7B7IfB2
+IAI>SWi9C66EUN0J6X5@WX0
 R2
 R3
-w1763574942
-8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q15.v
-FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q15.v
-!i122 212
-L0 4 30
+w1764266670
+8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q15_over.v
+FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q15_over.v
+!i122 477
+L0 4 44
 R4
 r1
 !s85 0
 31
-R10
-!s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q15.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q15.v|
+R9
+!s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q15_over.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q15_over.v|
 !i113 1
-R5
 R6
-vtb_DSP_modules
-R11
+R7
+vmult_q16
+R8
 !i10b 1
-!s100 iWBF9C4fV9G?iZ3T@^3Ho2
+!s100 iz4@KXoZeY49M74CEimji3
 R1
-ITfBBkM?K;NbeBkKT0jiKP2
+I^9]an78eQMP4MWSaIeaHJ0
 R2
 R3
-w1763059005
+w1764432707
+8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q16.v
+FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q16.v
+!i122 479
+L0 4 37
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q16.v|
+!i113 1
+R6
+R7
+vtb_DSP_modules
+R8
+!i10b 1
+!s100 ai`8KR]_ljP9oJ4imz5mb3
+R1
+I]G3F7K@4@3id<iGNS]R]L0
+R2
+R3
+w1763721601
 8D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/tb_DSP_modules.v
 FD:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/tb_DSP_modules.v
-!i122 200
-L0 3 65
+!i122 476
+L0 3 61
 R4
 r1
 !s85 0
 31
-R12
+R9
 !s107 D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/tb_DSP_modules.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/tb_DSP_modules.v|
 !i113 1
-R5
 R6
+R7
 ntb_@d@s@p_modules

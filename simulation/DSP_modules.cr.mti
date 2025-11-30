@@ -58,12 +58,32 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	mult_q15
 
+} {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub_q1_15.v {1 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/fixed_point_add_sub_q1_15.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fixed_point_add_sub_q1_15
+
+Top level modules:
+	fixed_point_add_sub_q1_15
+
 } {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/mult_booth_wooly.v {1 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/mult_booth_wooly.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module mult_booth_wooly
 
 Top level modules:
 	mult_booth_wooly
+
+} {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q16.v {2 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q16.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult_q16
+** Warning: D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q16.v(5): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q16.v(6): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q16.v(7): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q16.v(10): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q16.v(11): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q16.v(13): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	mult_q16
 
 } {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/DSP_mac_div.v {1 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/DSP_mac_div.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -152,13 +172,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	div_example
 
-} {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/div_q15q16.v {1 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/div_q15q16.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module div_q15q16
-
-Top level modules:
-	div_q15q16
-
 } {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/binary_representation.v {1 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/02_LessonVerilog/DSP_modules/modules/binary_representation.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module binary_representation
@@ -172,5 +185,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	div_q15q16
+
+} {} {}} D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q15_over.v {1 {vlog -work work -stats=none D:/Work/PCBteach/02_MY_projects/DSP_in_FPGA/Lessons/02_LessonVerilog/DSP_modules/modules/mult_q15_over.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult_q15
+
+Top level modules:
+	mult_q15
 
 } {} {}}

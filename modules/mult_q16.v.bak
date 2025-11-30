@@ -22,14 +22,14 @@ module mult_q15 (
 
 		
 		// проверка крайних значений из таблицы
-//		reg_a <= 16'shC000;
-//		reg_b <= 16'shC000;
+//		reg_a <= 16'sh4000;
+//		reg_b <= 16'sh4000;
 
-		reg_a <= 16'sh7FFF; 
-		reg_b <= 16'sh8000;		
+//		reg_a <= 16'sh7FFF;
+//		reg_b <= 16'sh7FFF;		
 		
-//		reg_a <= 16'sh8000;
-//		reg_b <= 16'sh8000;		
+		reg_a <= 16'sh8000;
+		reg_b <= 16'sh8000;		
 		
 		#5 
 		$display("mult_full HEX = 0x%h * 0x%h = 0x%h[30:15] = 0x%h ", reg_a, reg_b, mult_full, mult_full[30:15]); 

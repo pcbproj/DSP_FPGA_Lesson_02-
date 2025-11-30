@@ -1,7 +1,6 @@
 module binary_representation (
    input        [7:0] a_unsigned,       // беззнаковое число
-   input signed [7:0] a_signed  // то же, но интерпретируется со 
-											// знаком
+   input signed [7:0] a_signed  // то же, но интерпретируется со знаком
 );
     
 	reg [7:0] 	num_unsigned;
@@ -17,4 +16,3 @@ module binary_representation (
         $display("num_signed = %d (in binary %b)", num_signed, num_signed);
     end
 endmodule
-

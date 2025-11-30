@@ -28,31 +28,25 @@ module div_q15q16 (
 			reg_y_s = (reg_a_s <<< 15) / reg_b_s;
 		// насыщение при переполнении 	
 		if (reg_y_s < -32768) 	// -32768
-				reg_y_s_correct = -32768;
-         else if (reg_y_s > 32767) // +32767.0
-				reg_y_s_correct = 32767;
+			reg_y_s_correct = -32768;
+        else if (reg_y_s > 32767) // +32767.0
+			reg_y_s_correct = 32767;
 		else reg_y_s_correct = reg_y_s;
 		
     end
     
-   assign y_u = (reg_y_u > 32'h0000FFFF) ? 16'hFFFF : reg_y_u[15:0]; // насыщение без знака при штатном делении
+    assign y_u = (reg_y_u > 32'h0000FFFF) ? 16'hFFFF : reg_y_u[15:0]; // насыщение без знака при штатном делении
 	assign y_s = reg_y_s_correct[15:0];
 	
 	initial begin
-		reg_a_u <= 16'h4000;	// 0.5
-		reg_b_u <= 16'h2000;    // 0.25
+		reg_a_u <= 16'h4000;	// 0.25
+		reg_b_u <= 16'h8000;    // 0.0625
 		
-//		reg_a_s <= 16'sh4000;	// 0.5
-//		reg_b_s <= 16'sh1000;	// 0.125
-		
-//		reg_b_s <= 16'shEFFF;	// -0.125
-
-		reg_a_s <= 16'sh4000;	// 0.5
-		reg_b_s <= 16'sh0000;	// 0.5
-//		reg_b_s <= 16'shC000;	// -0.5
-		
-//		reg_a_s <= 16'sh7FFF;	// 0.9999
-//		reg_b_s <= 16'sh8000;	// -1.0
+		//~ reg_a_s <= 16'sh4000;	// 0.5
+		//~ reg_b_s <= 16'sh1000;	// 0.125
+		//~ reg_b_s <= 16'shEFFF;	// -0.125
+		reg_a_s <= 16'sh4000;	// -0.125
+		reg_b_s <= 16'shC000;	// -0.125
 		
 		#5
 		$display("----- UNSIGNED ---------");

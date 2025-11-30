@@ -1,14 +1,15 @@
 `timescale 10ns/1ns
+
 module add_sub_example(
 	input        [7:0] a, b,
-    output wire [7:0] sum,
-    output wire carry_out,
+   output wire [7:0] sum,
+   output wire carry_out,
 	output wire [7:0] diff
 );
     
 	reg  [7:0] a_u, b_u;
 	wire [7:0] sum_u, diff_u;
-	wire [8:0] lsum_u;
+	wire [8:0] lsum_u;			// !! разрядность выше на 1
 	
 	
 	reg signed [7:0] a_s, b_s;
@@ -45,7 +46,8 @@ module add_sub_example(
       #5 
 		$display("a_u=%d, b_u=%d, sum_u=%d, carry_u=%d, diff_u=%d", a_u, b_u, sum_u, carry_u, diff_u);
 		$display("More bits number for sum_u: lsum_u[8:0]=%d", lsum_u);
-		$display("a_s=%d, b_s=%d, sum_s=%d, overflow_s=%d, diff_s=%d", a_s, b_s, sum_s[7:0], overflow_s, diff_s[7:0]);
+		
+		$display("a_s=%d, b_s=%d, sum_s=%d, overflow_s=%d, diff_s=%d", a_s, b_s, sum_s, overflow_s, diff_s);
 		$display("sum_s_SAT=%d", sum_s_SAT);
 		$display("diff_s_SAT=%d", diff_s_SAT);
     end

@@ -20,9 +20,9 @@ binary_representation binary_representation_inst
 );
 */
 
-	
-// 16-bit сложение и вычитание целочисленнное
+
 /*
+// 16-bit сложение и вычитание целочисленнное
  add_sub_example add_sub_example_inst
 (
 	.a(in_a) ,	// input [15:0] a_sig
@@ -33,9 +33,8 @@ binary_representation binary_representation_inst
 );
 */
 
- 
+/*
  // целочисленнное умножение
- /*
  mult_example mult_example_inst(
 	.clk(clk),
 	.a(in_a), 
@@ -49,10 +48,12 @@ binary_representation binary_representation_inst
 /*
 // умножение методом Бо-Вули (ModelSim + Quartus RTL)
 mult_booth_wooly mult_booth_wooly_inst (
+	.rst(reset),
 	.clk(clk),
     .a(in_a), 
     .b(in_b),
-    .product(out_a)
+    .product(out_a),
+	 .done(done)
 );
 */
 
@@ -86,7 +87,7 @@ defparam divider_inst.N = 16;
 
 
 /*
-// сложение чисел с фиксированной точкой Q1.15
+// сложение чисел с фиксированной точкой Q0.16
 fixed_point_add_sub fixed_point_add_sub_inst
 (
 	.clk(clk),
@@ -94,6 +95,30 @@ fixed_point_add_sub fixed_point_add_sub_inst
 	.b(in_b) ,	// input [15:0] b_sig
 	.sum(out_a) ,	// output [15:0] sum_sig
 	.diff(out_b) 	// output [15:0] diff_sig
+);
+*/
+
+
+/*
+// сложение чисел с фиксированной точкой Q1.15
+fixed_point_add_sub_q1_15 fixed_point_add_sub_q1_15_inst
+(
+	.clk(clk),
+	.a(in_a) ,	// input [15:0] a_sig
+	.b(in_b) ,	// input [15:0] b_sig
+	.sum(out_a) ,	// output [15:0] sum_sig
+	.diff(out_b) 	// output [15:0] diff_sig
+);
+
+*/
+
+/*
+// 16x16-битный умножитель со знаком (формат Q0.16)	
+mult_q16 mult_q16_inst
+(
+	.a(in_a) ,	// input [15:0] a_sig
+	.b(in_b) ,	// input [15:0] b_sig
+	.y(out_data) 	// output [31:0] y_sig
 );
 */
 
@@ -107,6 +132,9 @@ mult_q15 mult_q15_inst
 	.y(out_data) 	// output [31:0] y_sig
 );
 */
+
+
+
 
 
 // 16-битное деление с фиксированной точкой Q1.15 Q0.16
@@ -129,8 +157,8 @@ DSP_mac_div DSP_mac_div_inst
 	.acc(out_a), 	
 	.quout(out_b)
 );
- 
-*/		
+ */
+		
 
 /*
 // БОНУС! использование LPM_DEVIDE из бибилиотеки Altera (Quartus RTL)

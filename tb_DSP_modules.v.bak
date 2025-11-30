@@ -32,7 +32,7 @@ module tb_DSP_modules;
         // снимаем сброс через 20 нс
         #20 rst = 1'b0;
 
-      // подаём входные данные
+        // подаём входные данные
 		// #10 in_a = 16'sh4000; in_b = 16'shC000;
 		// #10 in_a = 16'sh0200; in_b = 16'sh4000;
 		// #10 in_a = 16'sh6000; in_b = 16'sh6000;
@@ -59,5 +59,9 @@ module tb_DSP_modules;
 	
 	end
 
-   
+    // (7) Мониторинг сигналов
+    // initial begin
+        // $monitor("t = %0t \t | \t rst = %0d \t in_a = %0d \t in_b = %0d \t out1 = %0d \t out2 = %0d \t done = %0b", $time, rst, in_a, in_b, out1[15:0], out2[15:0], done);
+    // end
+
 endmodule

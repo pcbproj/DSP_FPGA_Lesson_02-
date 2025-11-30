@@ -12,7 +12,7 @@ module div_example
     always @(posedge clk) begin
 		// защита от деления на 0 - насыщение c сохранением знака	
 		if (divisor == 0) begin
-			if (dividend[7] == 1'b1) quot = -128;
+			if (dividend[7] == 1'b0) quot = -128;
 			else quot = 127;
 		end
 		else begin
@@ -20,6 +20,6 @@ module div_example
 			remain = (dividend % divisor);
 		end
 		$display("quot = (%d / %d) = %d", dividend, divisor, quot); 
-		$display("remain = (%d mod %d) = %d", dividend, divisor, remain); 
+		$display("remain = (%d / %d) = %d", dividend, divisor, remain); 
 	end
 endmodule
